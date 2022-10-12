@@ -1,0 +1,22 @@
+int main()
+{
+    char a[50];
+    int i=0,alphacount=0,digitcount=0,specialcount=0;
+    printf("Enter any string : ");
+    gets(a);
+    while(a[i] !='\0')
+    {
+
+        if(a[i]>='A' && a[i]<='Z' || a[i]>='a' && a[i]<='z')
+        alphacount++;
+        else if(a[i]>='0' && a[i]<='9')
+        digitcount++;
+        else
+            specialcount++;
+        i++;
+    }
+    printf("alphabet %d \n",alphacount);
+    printf("digit %d \n",digitcount);
+    printf("special charater %d",specialcount);
+    return 0;
+}
