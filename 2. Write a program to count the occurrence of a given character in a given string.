@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[]="nitish kumar and rohit";
+    char b ='i';
+    int i=0,count=0;
+    while(a[i] !='\0')
+    {
+        i++;
+        if(a[i]==b)
+        count++;
+    }
+    printf("%d",count);
+    return 0;
+}
