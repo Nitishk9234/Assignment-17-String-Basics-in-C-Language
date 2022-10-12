@@ -5,7 +5,6 @@ int main()
     char str[20];
     printf("Enter your name \n");
     fgets(str,20,stdin);
-    strupr(str);
     printf("convert into uppercase %s",strupr(str));
     return 0;
 }
