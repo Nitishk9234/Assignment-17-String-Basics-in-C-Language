@@ -5,7 +5,6 @@ int main()
     char str[20];
     printf("Enter your name \n");
     fgets(str,20,stdin);
-    strlwr(str);
     printf("convert into lowercase %s",strlwr(str));
     return 0;
 }
